@@ -1,0 +1,368 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`upload dataType：array 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "loading": true,
+        "method": "get",
+        "url": "",
+      },
+    ],
+    Array [
+      Object {
+        "data": Object {
+          "image": Array [
+            "1.jpg",
+            "2.jpg",
+          ],
+        },
+        "loading": true,
+        "method": "POST",
+        "url": "",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Promise {
+        "reject": [Function],
+        "resolve": [Function],
+      },
+    },
+    Object {
+      "type": "return",
+      "value": Promise {
+        "reject": [Function],
+        "resolve": [Function],
+      },
+    },
+  ],
+}
+`;
+
+exports[`upload dataType：object 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "loading": true,
+        "method": "get",
+        "url": "",
+      },
+    ],
+    Array [
+      Object {
+        "data": Object {
+          "image": Array [
+            Object {
+              "uid": "1.jpg",
+              "url": "1.jpg",
+            },
+            Object {
+              "uid": "2.jpg",
+              "url": "2.jpg",
+            },
+          ],
+        },
+        "loading": true,
+        "method": "POST",
+        "url": "",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Promise {
+        "reject": [Function],
+        "resolve": [Function],
+      },
+    },
+    Object {
+      "type": "return",
+      "value": Promise {
+        "reject": [Function],
+        "resolve": [Function],
+      },
+    },
+  ],
+}
+`;
+
+exports[`upload emptyToUndefined 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "data": Object {
+          "image": undefined,
+        },
+        "loading": true,
+        "method": "POST",
+        "url": "",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Promise {
+        "reject": [Function],
+        "resolve": [Function],
+      },
+    },
+  ],
+}
+`;
+
+exports[`upload max 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "loading": true,
+        "method": "get",
+        "url": "",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Promise {
+        "reject": [Function],
+        "resolve": [Function],
+      },
+    },
+  ],
+}
+`;
+
+exports[`upload multiple: load and submit 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "loading": true,
+        "method": "get",
+        "url": "",
+      },
+    ],
+    Array [
+      Object {
+        "data": Object {
+          "image": Array [
+            Object {
+              "uid": "fixed",
+              "url": "1.jpg",
+            },
+            Object {
+              "uid": "fixed",
+              "url": "2.jpg",
+            },
+          ],
+        },
+        "loading": true,
+        "method": "POST",
+        "url": "",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Promise {
+        "reject": [Function],
+        "resolve": [Function],
+      },
+    },
+    Object {
+      "type": "return",
+      "value": Promise {
+        "reject": [Function],
+        "resolve": [Function],
+      },
+    },
+  ],
+}
+`;
+
+exports[`upload multiple: load, remove and submit 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "loading": true,
+        "method": "get",
+        "url": "",
+      },
+    ],
+    Array [
+      Object {
+        "data": Object {
+          "image": Array [
+            Object {
+              "id": undefined,
+              "url": "2.jpg",
+            },
+          ],
+        },
+        "loading": true,
+        "method": "POST",
+        "url": "",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Promise {
+        "reject": [Function],
+        "resolve": [Function],
+      },
+    },
+    Object {
+      "type": "return",
+      "value": Promise {
+        "reject": [Function],
+        "resolve": [Function],
+      },
+    },
+  ],
+}
+`;
+
+exports[`upload multiple: submit 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "data": Object {
+          "image": undefined,
+        },
+        "loading": true,
+        "method": "POST",
+        "url": "",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Promise {
+        "reject": [Function],
+        "resolve": [Function],
+      },
+    },
+  ],
+}
+`;
+
+exports[`upload one: load and submit 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "loading": true,
+        "method": "get",
+        "url": "",
+      },
+    ],
+    Array [
+      Object {
+        "data": Object {
+          "image": "1.jpg",
+        },
+        "loading": true,
+        "method": "POST",
+        "url": "",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Promise {
+        "reject": [Function],
+        "resolve": [Function],
+      },
+    },
+    Object {
+      "type": "return",
+      "value": Promise {
+        "reject": [Function],
+        "resolve": [Function],
+      },
+    },
+  ],
+}
+`;
+
+exports[`upload one: load, delete and submit 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "loading": true,
+        "method": "get",
+        "url": "",
+      },
+    ],
+    Array [
+      Object {
+        "data": Object {
+          "image": "",
+        },
+        "loading": true,
+        "method": "POST",
+        "url": "",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Promise {
+        "reject": [Function],
+        "resolve": [Function],
+      },
+    },
+    Object {
+      "type": "return",
+      "value": Promise {
+        "reject": [Function],
+        "resolve": [Function],
+      },
+    },
+  ],
+}
+`;
+
+exports[`upload one: submit 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "data": Object {
+          "image": undefined,
+        },
+        "loading": true,
+        "method": "POST",
+        "url": "",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Promise {
+        "reject": [Function],
+        "resolve": [Function],
+      },
+    },
+  ],
+}
+`;
