@@ -1,3 +1,15 @@
+## [1.2.1](https://github.com/miaoxing/mxjs-a-upload/compare/v1.2.0...v1.2.1) (2024-03-31)
+
+
+
+
+
+### Dependencies
+
+* **@miaoxing/dev:** upgrade from `9.1.0` to `9.1.1`
+* **@mxjs/test:** upgrade from `1.0.10` to `1.0.11`
+* **@mxjs/a-form:** upgrade from `2.2.0` to `2.2.1`
+
 # [1.2.0](https://github.com/miaoxing/mxjs-a-upload/compare/v1.1.0...v1.2.0) (2024-02-20)
 
 
