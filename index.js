@@ -33,7 +33,7 @@ class Upload extends Component {
     /**
      * 指定上传区域的大小
      */
-    size: 104,
+    size: 110,
 
     /**
      * 提交时如果没有图片，是否转换值为 `undefined`（即不提交给后台）
@@ -190,14 +190,6 @@ class Upload extends Component {
               /* 上传单张图片时，不因隐藏上传图标而抖动页面 */
               min-height: ${size}px;
               min-width: ${size}px;
-              line-height: 0; /* 移除空白 */
-            }
-            .ant-upload-container-${id} .ant-upload-list-picture-card-container,
-            .ant-upload-container-${id} .ant-upload-list-picture-card .ant-upload-list-item,
-            .ant-upload-container-${id} .ant-upload.ant-upload-select-picture-card {
-              width: ${size}px;
-              height: ${size}px;
-              ${max === 1 ? 'margin: 0;' : ''}
             }
           `}
         </style>
