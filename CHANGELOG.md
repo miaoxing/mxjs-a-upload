@@ -1,3 +1,18 @@
+# [1.3.0](https://github.com/miaoxing/mxjs-a-upload/compare/v1.2.3...v1.3.0) (2024-06-30)
+
+
+### Features
+
+* **a-upload:** 更新上传图片高度以支持 antd 5 ([2b0c5f3](https://github.com/miaoxing/mxjs-a-upload/commit/2b0c5f378cee0676addf4f9d1b4400fc47d79adf))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/a-form:** upgrade from `3.0.1` to `3.0.2`
+
 ## [1.2.3](https://github.com/miaoxing/mxjs-a-upload/compare/v1.2.2...v1.2.3) (2024-05-30)
 
 
