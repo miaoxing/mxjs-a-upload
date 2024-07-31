@@ -1,3 +1,21 @@
+## [1.3.1](https://github.com/miaoxing/mxjs-a-upload/compare/v1.3.0...v1.3.1) (2024-07-31)
+
+
+### Bug Fixes
+
+* 更改入口文件，解决 vite "Failed to resolve entry for package" 问题 ([546b3c4](https://github.com/miaoxing/mxjs-a-upload/commit/546b3c42a4cf1d7af5e822e15f733818426784bf))
+
+
+
+
+
+### Dependencies
+
+* **babel-preset-miaoxing:** upgrade from `0.7.0` to `0.8.0`
+* **@miaoxing/dev:** upgrade from `9.1.1` to `9.1.2`
+* **@mxjs/test:** upgrade from `2.0.0` to `2.0.1`
+* **@mxjs/a-form:** upgrade from `3.0.2` to `4.0.0`
+
 # [1.3.0](https://github.com/miaoxing/mxjs-a-upload/compare/v1.2.3...v1.3.0) (2024-06-30)
 
 
