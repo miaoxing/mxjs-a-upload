@@ -1,3 +1,16 @@
+## [1.3.3](https://github.com/miaoxing/mxjs-a-upload/compare/v1.3.2...v1.3.3) (2024-08-03)
+
+
+
+
+
+### Dependencies
+
+* **babel-preset-miaoxing:** upgrade from `0.8.0` to `0.8.1`
+* **@miaoxing/dev:** upgrade from `9.1.2` to `9.1.3`
+* **@mxjs/test:** upgrade from `2.0.2` to `2.0.3`
+* **@mxjs/a-form:** upgrade from `4.0.1` to `4.0.2`
+
 ## [1.3.2](https://github.com/miaoxing/mxjs-a-upload/compare/v1.3.1...v1.3.2) (2024-08-02)
 
 
