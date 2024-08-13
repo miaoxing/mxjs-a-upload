@@ -94,7 +94,7 @@ describe('upload', () => {
     await promise;
     await waitFor(() => expect(container.querySelector('.ant-upload-list-item-image')).not.toBeNull());
 
-    fireEvent.click(getByTitle('移除文件'));
+    fireEvent.click(getByTitle('Remove file'));
     await waitFor(() => expect(container.querySelector('.ant-upload-list-item-image')).toBeNull());
 
     container.querySelector('form').submit();
@@ -195,7 +195,7 @@ describe('upload', () => {
     await promise;
     await waitFor(() => expect(container.querySelectorAll('.ant-upload-list-item-image').length).toBe(2));
 
-    fireEvent.click(getAllByTitle('移除文件')[0]);
+    fireEvent.click(getAllByTitle('Remove file')[0]);
     await waitFor(() => expect(container.querySelectorAll('.ant-upload-list-item-image').length).toBe(1));
 
     container.querySelector('form').submit();
@@ -226,7 +226,7 @@ describe('upload', () => {
     await waitFor(() => expect(container.querySelector('.ant-upload-list-item-image')).not.toBeNull());
     expect(container.querySelector('.anticon-plus')).toBeNull();
 
-    fireEvent.click(getByTitle('移除文件'));
+    fireEvent.click(getByTitle('Remove file'));
     await waitFor(() => expect(container.querySelector('.ant-upload-list-item-image')).toBeNull());
     expect(container.querySelector('.anticon-plus')).not.toBeNull();
 

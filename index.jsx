@@ -200,12 +200,6 @@ class Upload extends Component {
           fileList={this.state.fileList}
           onPreview={this.handlePreview}
           multiple={this.isMultiple()}
-          locale={{
-            previewFile: '预览文件',
-            removeFile: '移除文件',
-            downloadFile: '下载文件',
-            uploading: '上传中...',
-          }}
           onChange={(value) => {
             const fileList = this.processFileList(value.fileList);
             this.setState({fileList});
