@@ -186,7 +186,7 @@ class Upload extends Component {
         {/* 使用内联CSS，简化依赖 */}
         <style>
           {`
-            .ant-upload-container-${id} {
+            .ant-upload-container-${id.replace('.', '\\.')} {
               /* 上传单张图片时，不因隐藏上传图标而抖动页面 */
               min-height: ${size}px;
               min-width: ${size}px;
