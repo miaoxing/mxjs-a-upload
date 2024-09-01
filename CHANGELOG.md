@@ -1,3 +1,26 @@
+# [1.4.0](https://github.com/miaoxing/mxjs-a-upload/compare/v1.3.3...v1.4.0) (2024-09-01)
+
+
+### Bug Fixes
+
+* **a-upload:** `name` 是数组时，生成 id 带 . 导致样式失效 ([b8381c8](https://github.com/miaoxing/mxjs-a-upload/commit/b8381c8f65785c6aa5083d6450f418226b791c0c))
+* **a-upload:** 移除 `locale` 属性，应该通过 `ConfigProvider` 传入 ([2e76d20](https://github.com/miaoxing/mxjs-a-upload/commit/2e76d20fbe4f55b700d53fc71a0066aa21222ab7))
+
+
+### Features
+
+* 更新 `antd` 到 `~5.19` ([d48a4e9](https://github.com/miaoxing/mxjs-a-upload/commit/d48a4e951be7172f70133907567e4f4ff7f42144))
+
+
+
+
+
+### Dependencies
+
+* **@miaoxing/dev:** upgrade from `9.1.3` to `9.2.0`
+* **@mxjs/test:** upgrade from `2.0.3` to `2.0.4`
+* **@mxjs/a-form:** upgrade from `4.0.2` to `4.1.0`
+
 ## [1.3.3](https://github.com/miaoxing/mxjs-a-upload/compare/v1.3.2...v1.3.3) (2024-08-03)
 
 
