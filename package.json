@@ -1,6 +1,6 @@
 {
   "name": "@mxjs/a-upload",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "main": "index.jsx",
   "author": "twinh",
   "license": "MIT",
@@ -20,9 +20,9 @@
   "devDependencies": {
     "@testing-library/react": "^14",
     "babel-preset-miaoxing": "^0.8.1",
-    "@miaoxing/dev": "^9.2.0",
-    "@mxjs/test": "^2.0.5",
-    "@mxjs/a-form": "^5.1.0",
+    "@miaoxing/dev": "^9.3.0",
+    "@mxjs/test": "^2.0.6",
+    "@mxjs/a-form": "^5.2.0",
     "react": ">=16.13.1",
     "react-dom": ">=16.13.1"
   },
