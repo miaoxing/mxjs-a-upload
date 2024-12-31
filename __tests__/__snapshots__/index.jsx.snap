@@ -7,7 +7,7 @@ exports[`upload dataType：array 1`] = `
       Object {
         "loading": true,
         "method": "get",
-        "url": "",
+        "url": "defaults",
       },
     ],
     Array [
@@ -50,7 +50,7 @@ exports[`upload dataType：object 1`] = `
       Object {
         "loading": true,
         "method": "get",
-        "url": "",
+        "url": "defaults",
       },
     ],
     Array [
@@ -125,7 +125,7 @@ exports[`upload max 1`] = `
       Object {
         "loading": true,
         "method": "get",
-        "url": "",
+        "url": "defaults",
       },
     ],
   ],
@@ -148,7 +148,7 @@ exports[`upload multiple: load and submit 1`] = `
       Object {
         "loading": true,
         "method": "get",
-        "url": "",
+        "url": "defaults",
       },
     ],
     Array [
@@ -197,7 +197,7 @@ exports[`upload multiple: load, remove and submit 1`] = `
       Object {
         "loading": true,
         "method": "get",
-        "url": "",
+        "url": "defaults",
       },
     ],
     Array [
@@ -268,7 +268,7 @@ exports[`upload one: load and submit 1`] = `
       Object {
         "loading": true,
         "method": "get",
-        "url": "",
+        "url": "defaults",
       },
     ],
     Array [
@@ -308,7 +308,7 @@ exports[`upload one: load, delete and submit 1`] = `
       Object {
         "loading": true,
         "method": "get",
-        "url": "",
+        "url": "defaults",
       },
     ],
     Array [
